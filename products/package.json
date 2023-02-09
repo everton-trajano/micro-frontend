@@ -1,10 +1,10 @@
 {
-  "name": "products-service",
+  "name": "products",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack serve"
   },
   "keywords": [],
   "author": "",
