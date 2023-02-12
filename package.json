@@ -1,0 +1,26 @@
+{
+  "name": "MicroFrontEnds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everton-trajano/micro-frontend.git"
+  },
+  "scripts": {
+    "dev:cart":"npm run start --workspace cart",
+    "dev:products":"npm run start --workspace products",
+    "dev:container":"npm run start --workspace container",
+    "dev": "concurrently npm:dev:*"
+  },
+  "workspaces":[
+    "./microfrontends/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everton-trajano/micro-frontend/issues"
+  },
+  "homepage": "https://github.com/everton-trajano/micro-frontend#readme"
+}
